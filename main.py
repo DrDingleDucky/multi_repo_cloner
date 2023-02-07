@@ -1,7 +1,7 @@
 import git
 import requests
 
-github_user = "MrDingleDucky"
+github_user = "Username"
 
 response = requests.get(f"https://api.github.com/users/{github_user}/repos")
 repo_urls = [repo["html_url"] for repo in response.json()]
