@@ -1,13 +1,17 @@
 # Mult Repo Cloner
 
-Clone multiple repositories under a user's name.
+Clone all repositories under a user's name.
 
 ## Instructions
 
-### Installation
+### Install Dependencies
 
-Install the necessary imports.
+Install the necessary dependencies.
 
 ```python
 pip install -r requirements.txt
 ```
+
+### How To Use
+
+Run `main.py` and enter a username.
